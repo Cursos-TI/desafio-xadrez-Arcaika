@@ -32,14 +32,22 @@ int main() {
     printf("-----------------------------------------------------\n");
     // Implementação de Movimentação do cavalo
     printf("Movimento Cavalo:\n");
-        while (Cavalo<=2){
-            printf("Baixo\n");
-            Cavalo++;
-            for(J=1;Cavalo=2<=4;J++){
-                printf("Esquerda\n");    
-            }       
-        }
-    }            
+        for(J=1; Cavalo==2;J++);   
+            while (Cavalo<=2);
+             printf("Baixo");
+                Cavalo++;
+        printf("Esquerda\n");   
+            
+}    
+                 
+            
+     
+          
+            
+            
+            
+    
+        
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
