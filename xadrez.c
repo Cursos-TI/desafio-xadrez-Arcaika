@@ -7,6 +7,7 @@ int main() {
     int Torre=1;
     int Rainha=1;
     int Cavalo=1;
+    int J=1;
 
     // Implementação de Movimentação do Bispo
     printf("Movimento Bispo:(movimento diagonal)\n");  
@@ -28,12 +29,17 @@ int main() {
     for (Rainha=1; Rainha<=8; Rainha++){
         printf("Esquerda\n");    
     }    
+    printf("-----------------------------------------------------\n");
     // Implementação de Movimentação do cavalo
-
-    for(int Movimento1=1;Movimento1<=2;Movimento1++)
-    {
-        while ()
-
+    printf("Movimento Cavalo:\n");
+        while (Cavalo<=2){
+            printf("Baixo\n");
+            Cavalo++;
+            for(J=1;Cavalo=2<=4;J++){
+                printf("Esquerda\n");    
+            }       
+        }
+    }            
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
